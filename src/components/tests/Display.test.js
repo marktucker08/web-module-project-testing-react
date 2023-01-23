@@ -3,7 +3,9 @@ import { render, fireEvent, screen } from '@testing-library/react';
 import '@testing-library/jest-dom/extend-expect';
 import Display from './../Display';
 
-test('renders without errors with no props', async () => { });
+test('renders without errors with no props', async () => { 
+    render(<Display />);
+});
 
 test('renders Show component when the button is clicked ', () => { });
 
